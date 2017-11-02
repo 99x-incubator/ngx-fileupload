@@ -3,6 +3,10 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@99xt/ng2-fileupload.svg)](https://www.npmjs.com/package/@99xt/ng2-fileupload)
 [![license](https://img.shields.io/github/license/99xt/ng2-fileupload.svg)](https://github.com/99xt/ng2-fileupload/blob/master/LICENSE)
 
+Above npm package details are to be renamed ng2-fileupload to ngx-fileupload with the name change of the npm package.
+<!-- [![npm (scoped)](https://img.shields.io/npm/v/@99xt/ngx-fileupload.svg)](https://www.npmjs.com/package/@99xt/ngx-fileupload)
+[![license](https://img.shields.io/github/license/99xt/ngx-fileupload.svg)](https://github.com/99xt/ngx-fileupload/blob/master/LICENSE) -->
+
 Simpler file upload implementation for angular apps.
 
 ## Installation
@@ -10,7 +14,7 @@ Simpler file upload implementation for angular apps.
 To install this library, implement the following:
 
 ```bash
-npm install @99xt/ng2-fileupload --save
+npm install @99xt/ngx-fileupload --save
 ```
 This is to be updated to ngx-fileupload
 
@@ -24,7 +28,7 @@ import { NgModule } from '@angular/core';
 import { ExampleComponent } from './example.component';
 
 // Import the library
-import { FileUploadModule } from '@99xt/ng2-fileupload';
+import { FileUploadModule } from '@99xt/ngx-fileupload';
 /** This is to be updated to ngx-fileupload*/
 
 @NgModule({
@@ -88,7 +92,7 @@ For more info Check [Angular CLI](https://github.com/angular/angular-cli).
 Clone the repository to your workstation
 
 ```bash
-git clone git@github.com:99xt/ng2-fileupload.git
+git clone git@github.com:99xt/ngx-fileupload.git
 ```
 
 Navigate to the project directory 
