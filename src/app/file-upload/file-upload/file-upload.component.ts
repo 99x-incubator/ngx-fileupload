@@ -74,6 +74,12 @@ export class FileUploadComponent implements OnInit {
       files: files
     };
 
+    // validate file count
+    if (!this.multiple && files.length > 1) {
+        error = true;
+        errorMessages.push('Invalid file count');
+    }
+
     if (this.allowedTypes.length > 0) {
       for (let i = 0; i < files.length; i++) {
         const file = files[i];
