@@ -77,7 +77,7 @@ export class FileUploadComponent implements OnInit {
     // validate file count
     if (!this.multiple && files.length > 1) {
         error = true;
-        errorMessages.push('Invalid file count');
+        errorMessages.push('Only allowed to upload single file');
     }
 
     if (this.allowedTypes.length > 0) {
